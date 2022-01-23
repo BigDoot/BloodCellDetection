@@ -1,0 +1,9 @@
+train: ../yolov5/images/train/ 
+val:  ../yolov5/images/val/
+test: ../yolov5/images/test/
+
+# number of classes
+nc: 2
+
+# class names
+names: ["wbc","rbc"]
