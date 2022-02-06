@@ -1,6 +1,8 @@
 # BloodCellDetection
 The dataset contains annotated red blood cells (RBC) and white blood cells (WBC) from peripheral blood smear taken from a light microscope. It contains 100 annotated images (256x256 pixels). Figure 1 displayed below is one of the annotated images labelled ‘image-1.png’, and Figure 2 is a list of annotations tagged to it. The annotations include the image name, the xmin/ymin/xmax/ymax values which describe the coordinates of 2 corners of each identified blood cell’s bounding box. Furthermore, each blood cell is labelled. There are 2 possible labels for each blood cell: ‘wbc’ for white blood cells and ‘rbc’ for red blood cells.
 
+The dataset is from https://www.kaggle.com/draaslan/blood-cell-detection-dataset
+
 ![image](https://user-images.githubusercontent.com/48408342/152689717-20f77ac0-f945-46f4-90e2-6fccc618cf26.png)
 ![image](https://user-images.githubusercontent.com/48408342/152689718-6622c509-fa66-4d8a-b343-7c0ec736f47e.png)
 
@@ -44,4 +46,4 @@ Hyperparameters – 300 epochs. The rest are the default.
 
 The model predicts the test set almost perfectly accurate. Precision and recall are almost 1.
 
-# Deep Learning Model 2 - R-CNN
+# Deep Learning Model 2 - Faster R-CNN
